@@ -1,0 +1,8 @@
+shared:
+  requires: [~pr, ~commit]
+  template: sd/noop@latest
+jobs:
+  first:
+    sourcePaths: [first/]
+  second:
+    sourcePaths: [second/]
